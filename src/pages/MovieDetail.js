@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link ,useNavigate} from 'react-router-dom';
 import { getMovie, deleteMovie } from '../services/api';
 import { FaEdit, FaTrash, FaArrowLeft } from 'react-icons/fa';
 
